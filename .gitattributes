@@ -1,3 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 Data/ventas_detalle.parquet filter=lfs diff=lfs merge=lfs -text
+*.ipynb filter=lfs diff=lfs merge=lfs -text
